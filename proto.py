@@ -45,6 +45,8 @@ def send_bnes_recv_bner(
       error: 'Timeout ' + str(timeout_int) + ' expired ' + \
         'waiting for a response'
     }
+    nwnee_socket.close()
+    return bner_dict
 
   nwnee_socket.close()
 
@@ -131,6 +133,8 @@ def send_bnlm_recv_bnlr(
       error: 'Timeout ' + str(timeout_int) + ' expired ' + \
         'waiting for a response'
     }
+    nwnee_socket.close()
+    return bnlr_dict
 
   nwnee_socket.close()
 
@@ -202,6 +206,8 @@ def send_bnds_recv_bndr(
       error: 'Timeout ' + str(timeout_int) + ' expired ' + \
         'waiting for a response'
     }
+    nwnee_socket.close()
+    return bndr_dict
 
   nwnee_socket.close()
 
@@ -327,6 +333,8 @@ def send_bnxi_recv_bnxr(
       error: 'Timeout ' + str(timeout_int) + ' expired ' + \
         'waiting for a response'
     }
+    nwnee_socket.close()
+    return bnxr_dict
 
   nwnee_socket.close()
 
