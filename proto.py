@@ -1,3 +1,7 @@
+# Unsupported messages:
+# BNDM - "Disconnect Me" 
+# BNDP - "Disconnect Player"
+
 import socket
 from   struct import *
 import sys
